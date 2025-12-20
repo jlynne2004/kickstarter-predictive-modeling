@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.pyc
+_pycache_/
+.ipynb_checkpoints/
+.DS_Store
