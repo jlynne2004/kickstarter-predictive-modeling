@@ -8,7 +8,7 @@ df = pd.read_csv('data/cleaned/ks-projects-201612-cleaned.csv')
 # Covert data types
 df['goal'] = pd.to_numeric(df['goal'], errors='coerce')
 df['pledged'] = pd.to_numeric(df['pledged'], errors='coerce')
-df['usd_pledged'] = pd.to_numeric(df['usd_pledged'], errors='coerce')
+df['usd pledged'] = pd.to_numeric(df['usd pledged'], errors='coerce')
 df['backers'] = pd.to_numeric(df['backers'], errors='coerce')
 df['launched'] = pd.to_datetime(df['launched'], errors='coerce')
 df['deadline'] = pd.to_datetime(df['deadline'], errors='coerce')
